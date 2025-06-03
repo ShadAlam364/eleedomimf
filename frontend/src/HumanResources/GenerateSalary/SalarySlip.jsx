@@ -165,7 +165,7 @@ const SalarySlip = () => {
                   <div className="font-semibold">Arrear:</div>
                   <div>123789</div>
 
-                  <div className="font-bold ">Total Earnings:</div>
+                  <div className="font-bold ">Total Earning:</div>
                   <div className="font-bold ">2345</div>
 
                 </div>
