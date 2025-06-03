@@ -1,0 +1,15 @@
+[0;1;32m●[0m backend.service - Backend Service
+     Loaded: loaded (/etc/systemd/system/backend.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2024-12-25 16:13:05 IST; 2s ago
+   Main PID: 666525 (npm run start)
+      Tasks: 23 (limit: 2255)
+     Memory: 100.4M
+     CGroup: /system.slice/backend.service
+             ├─666525 npm run start
+             ├─666537 sh -c node --max-old-space-size=4096 index.js
+             └─666538 node --max-old-space-size=4096 index.js
+
+Dec 25 16:13:05 ds.infoera.ind.in systemd[1]: Started Backend Service.
+Dec 25 16:13:05 ds.infoera.ind.in bash[666525]: > backend@1.0.0 start
+Dec 25 16:13:05 ds.infoera.ind.in bash[666525]: > node --max-old-space-size=4096 index.js
+Dec 25 16:13:07 ds.infoera.ind.in bash[666538]: Server is running on 7000
